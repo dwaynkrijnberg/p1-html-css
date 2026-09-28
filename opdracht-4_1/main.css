@@ -1,0 +1,22 @@
+h2{
+color: #9000ff;
+font-family: "Merriweather", serif;
+font-weight: 800;
+font-size: 56px;
+}
+
+p{
+color: #0d0303;
+font-family: "Merriweather", serif;
+font-size: 28px;
+}
+
+.first{
+    font-weight: 800;
+}
+
+a{
+color: #7272dd;
+font-family: "Merriweather", serif;
+text-decoration: none;
+}
