@@ -23,7 +23,7 @@ body {
   margin: 0;
   font-family: HelloHiFont, sans-serif;
  color: #111;
- background-image: url(/img/watch.png);
+ background-image: url("/img/watch.png");
  background-size: 25%;
  background-repeat: no-repeat;
  background-position-x: 1100px;
@@ -122,6 +122,12 @@ align-content: center;
   display: inline-block;
   background: black;
   color: white;
+  padding: 15px 32px;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
 }
 
 
