@@ -1,0 +1,21 @@
+.navBar,
+.navList {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.sides {
+    width: 25%;
+    text-align: center;
+}
+
+.navList {
+    width: 50%;
+}
+
+a {
+
+    text-decoration: none;
+}
