@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-color: blueviolet;
+    height: 70px;
+   
+    padding: 0 100px;
+}
+
+nav li{
+    position: relative;
+    list-style: none;
+    
+}
+
+nav ul{
+    display: flex;
+     gap: 150px;
+    font-size: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+ color: white;
+}
+.dropDown{
+    display: none;
+    flex-direction: column;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+nav li:hover > .dropDown {
+    display: flex;
+}

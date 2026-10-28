@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: rgb(120, 120, 235);
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.title1 {
+    display: flex;
+    background-color: rgb(126, 223, 223);
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.title2 {
+    display: flex;
+    background-color: rgb(205, 91, 220);
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.title3 {
+    display: flex;
+    background-color: rgb(31, 27, 91);
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Tablet */
+@media (min-width:768px) {
+    .menu {
+        display: none;
+    }
+
+    .nav {
+        background-color: rgb(243, 132, 167);
+        justify-content: center;
+    }
+
+    .title1 {
+        background-color: rgb(237, 73, 92);
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding-left: 20px;
+        padding-bottom: 180px;
+        padding-top: 0px;
+    }
+
+    .title2 {
+        background-color: rgb(88, 88, 255);
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-bottom: 180px;
+        padding-top: 0px;
+    }
+
+    .title3 {
+        background-color: rgb(0, 60, 255);
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-bottom: 180px;
+        padding-top: 0px;
+    }
+}
+
+@media (min-width:1024px) {
+    .nav {
+        justify-content: flex-start;
+        background-color: rgb(255, 47, 78);
+                padding-left: 50px;
+    }
+
+    .title1 {
+        background-color: rgb(254, 219, 25);
+        color: black;
+        padding-left: 50px;
+        padding-bottom: 180px;
+        padding-top: 0px;
+    }
+
+    .title2 {
+        background-color: rgb(254, 143, 25);
+        color: black;
+        padding-left: 50px;
+        padding-bottom: 180px;
+        padding-top: 0px;
+    }
+
+    .title3 {
+        background-color: rgb(109, 164, 102);
+        color: black;
+        padding-left: 50px;
+        padding-bottom: 180px;
+        padding-top: 0px;
+    }
+}
