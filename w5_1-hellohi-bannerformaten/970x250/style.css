@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+    width: 970px; 
+    height: 250px; 
+    background-color: black;
+}
+
+.box{
+    width: 20px;
+    height: 10px;
+}
+
+.box1,
+.box2,
+.box3{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    left: 15px;
+    top: 15px;
+}
+
+.box1{
+    background-color: #9000ff;
+}
+
+.box2{
+    background-color: #55559f;
+    left: 40px;
+}
+
+.box3{
+    background-color: #b0b0ed;
+    left: 65px;
+}
+
+.titleText{
+    position: absolute;
+    top: 74px;
+    left: 15px;
+    color: white;
+    font-size: 52px;
+}
+
+.hiImg{
+    position: absolute;
+    left: 134px;
+    top: 48px;
+    width: 44px;
+    height: auto;
+}
+
+.subText{
+    position: absolute;
+    left: 15px;
+    top: 142px;
+    font-size: 22px;
+    color: white;
+}
+
+.productText{
+    position: absolute;
+    left: 15px;
+    top: 179px;
+    color: white;
+    font-size: 16px;
+}
+
+.uspText{
+    position: absolute;
+    color: white;
+    left: 402px;
+    top: 136px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.circle{
+    position: absolute;
+    right: -190px;
+    bottom: -190px;
+    width: 500px;
+    height: 500px;
+    background-color: #7272dd;
+    border-radius: 100%;
+}
+
+.simImg{
+    position: absolute;
+    right: 600px;
+    top: 30px;
+    width: 120px;
+    height: auto;
+}
+
+.btn{
+    width: 157px;
+    height: 115px;
+    position: absolute;
+    bottom: 64px;
+    right: 78px;
+    border-radius: 10px;
+    border-width: thin;
+    border-color: #fefeff;
+    border-style: solid;
+    background-color: rgba(114, 114, 221, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnText{
+    color: #ffffff;
+   position: absolute;
+font-size: 22px;
+}
