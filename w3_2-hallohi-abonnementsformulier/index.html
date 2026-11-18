@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+
+<body>
+     <form>
+          <label for="fname">Voornaam:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Achternaam</label><br>
+          <input type="text" id="lname" name="lname">
+
+          <p>Aanhef</p>
+
+
+          <input type="radio" id="dhr." name="fav_language" value="Dhr." checked>
+          <label for="dhr.">Dhr.</label><br>
+          <input type="radio" id="mevr." name="fav_language" value="Mevr.">
+          <label for="mevr.">Mevr.</label><br>
+
+
+
+          <label for="snummer">Straat met huisnummer:</label><br>
+          <input type="text" id="snummer" name="snummer" pattern="[A-Za-z0-9]"><br>
+
+
+
+          <label for="pcode">Postcode:</label><br>
+          <input type="text" id="pcode" name="pcode"><br>
+
+
+
+          <label for="wplaats">Woonplaats:</label><br>
+          <input type="text" id="wplaats" name="wplaats"><br>
+
+
+
+          <label for="land">Land:</label><br>
+          <input type="text" id="land" name="land"><br>
+
+          <br>
+
+
+          <label for="IBAN-nummer">IBAN-nummer:</label> <br>
+          <input type="text" pattern="[A-Z]{2}" required placeholder="NL91ABNA04171643"> <br>
+
+          <br>
+
+
+          <p>Type abonement</p>
+          <input type="radio" id="mobiel" name="fav_language" value="Mobiel" checked>
+          <label for="mobiel">Mobiel</label><br>
+          <input type="radio" id="glasvezel" name="fav_language" value="Glasvezel">
+          <label for="glasvezel">Glasvezel</label><br>
+          <input type="radio" id="tv" name="fav_language" value="Tv">
+          <label for="tv">Tv</label><br>
+
+          <label for="looptijd">Looptijd abonnement:</label>
+
+          <select name="looptijd" id="looptijd">
+               <option value="3 Maanden">3 Maanden</option>
+               <option value="12 Maanden">12 Maanden</option>
+               <option value="24 Maanden">24 Maanden</option>
+               <option value="36 Maanden">36 Maanden</option>
+          </select> <br>
+
+          <label for="quantity">Aantal gebruikers:</label> <br>
+          <input type="number" id="quantity" name="quantity" min="1" max="4"> <br>
+
+          <label for="datum">Datum van ingang:</label> <br>
+          <input type="date" id="datum" name="datum" min="2026-11-18" required>
+
+
+
+          <label for="email">Enter your email:</label> <br>
+          <input type="email" id="email" name="email">
+
+
+
+          <label for="pwd">Password:</label> <br>
+          <input type="password" id="pwd" name="pwd">
+          <input type="submit" value="Sluit abonnement af">
+     </form>
+</body>
+
+</html>
